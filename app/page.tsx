@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
+import YoutubeEmbed from "./component/youtubeEmbed"
 
 const LOCAL_STORAGE_KEY = 'prupIELTS_nextTaskID';
 
@@ -46,7 +47,7 @@ export default function Home() {
   console.log("KEY =", process.env.NEXT_PUBLIC_GEMINI_API_KEY);
 
   return (
-    <div className="font-sans m-7 sm:mx-15">
+    <div className="font-sans font-semibold m-7 sm:mx-15">
 
       <nav className="flex justify-between items-center">
         <div className="font-bold text-3xl hidden sm:block text-blue-500">
@@ -54,6 +55,7 @@ export default function Home() {
         </div>
         <ul className="flex gap-6">
           <li className="duration-200 hover:scale-105 cursor-pointer"><a href="/">Home</a></li>
+          <li className="duration-200 hover:scale-105 cursor-pointer"><a href="Video">Course</a></li>
           <li className="duration-200 hover:scale-105 cursor-pointer"><a href="Reading">Reading</a></li>
           <li className="duration-200 hover:scale-105 cursor-pointer"><a href="Writing">Writing</a></li>
         </ul>
@@ -75,9 +77,8 @@ export default function Home() {
             <p>Task ทั้งหมดเสร็จสิ้นแล้วครับ! 🎉</p>
           </div>
         )}
-        <div className="">
-          <div className="w-[350px] sm:w-[650px] mt-8 sm:mt-0 h-[400px] rounded-md bg-gray-100">
-          </div>
+        <div className="w-[350px] sm:w-[650px] mt-8 sm:mt-0 h-[400px] rounded-md bg-gray-100">
+          <YoutubeEmbed embedId="" />
         </div>
       </div>
     </div>

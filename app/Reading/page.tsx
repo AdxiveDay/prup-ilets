@@ -104,11 +104,12 @@ Respond with valid JSON only.
   }
 
   return (
-    <div className="font-sans m-7 sm:mx-15">
+    <div className="font-sans m-7 font-semibold sm:mx-15">
       <nav className="flex justify-between items-center">
         <div className="font-bold text-3xl text-blue-500 hidden sm:block"><h1>Prup IELTS</h1></div>
         <ul className="flex gap-6">
           <li className="duration-200 hover:scale-105 cursor-pointer"><a href="/">Home</a></li>
+                              <li className="duration-200 hover:scale-105 cursor-pointer"><a href="Video">Course</a></li>
           <li className="duration-200 hover:scale-105 cursor-pointer"><a href="Reading">Reading</a></li>
           <li className="duration-200 hover:scale-105 cursor-pointer"><a href="Writing">Writing</a></li>
         </ul>

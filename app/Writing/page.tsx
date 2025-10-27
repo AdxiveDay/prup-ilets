@@ -94,7 +94,7 @@ Essay: "${Essay}"
   }
 
   return (
-    <div className="font-sans m-7 sm:mx-15">
+    <div className="font-sans font-semibold m-7 sm:mx-15">
       {/* Navbar */}
       <nav className="flex justify-between items-center">
         <div className="font-bold text-3xl hidden sm:block text-blue-500">
@@ -104,6 +104,7 @@ Essay: "${Essay}"
           <li className="hover:scale-105 duration-200 cursor-pointer">
             <a href="/">Home</a>
           </li>
+          <li className="duration-200 hover:scale-105 cursor-pointer"><a href="Video">Course</a></li>
           <li className="hover:scale-105 duration-200 cursor-pointer">
             <a href="/Reading">Reading</a>
           </li>
