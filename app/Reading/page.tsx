@@ -111,8 +111,6 @@ Respond with valid JSON only.
           <li className="duration-200 hover:scale-105 cursor-pointer"><a href="/">Home</a></li>
           <li className="duration-200 hover:scale-105 cursor-pointer"><a href="Reading">Reading</a></li>
           <li className="duration-200 hover:scale-105 cursor-pointer"><a href="Writing">Writing</a></li>
-          <li className="duration-200 hover:scale-105 cursor-pointer">Listening</li>
-          <li className="duration-200 hover:scale-105 cursor-pointer">Speaking</li>
         </ul>
       </nav>
 

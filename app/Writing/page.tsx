@@ -110,8 +110,6 @@ Essay: "${Essay}"
           <li className="hover:scale-105 duration-200 cursor-pointer">
             <a href="/Writing">Writing</a>
           </li>
-          <li className="hover:scale-105 duration-200 cursor-pointer">Listening</li>
-          <li className="hover:scale-105 duration-200 cursor-pointer">Speaking</li>
         </ul>
       </nav>
 
